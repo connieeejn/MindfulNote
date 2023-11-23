@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "845324785790",
+    "project_id": "mindfulnote-8d5f6",
+    "storage_bucket": "mindfulnote-8d5f6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:845324785790:android:2923d98fed56e77c0da02f",
+        "android_client_info": {
+          "package_name": "com.example.mindfulnote"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJeFr2JTQPnoLwVuea1-oyLbdLnehoc5U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

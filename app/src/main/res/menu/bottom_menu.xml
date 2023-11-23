@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/baseline_home_24"/>
+
+
+    <item
+        android:id="@+id/meditation"
+        android:title="Meditation"
+        android:icon="@drawable/baseline_medidate_24"/>
+
+    <item
+        android:id="@+id/note"
+        android:title="Notes"
+        android:icon="@drawable/baseline_note_add_24"/>
+
+    <item
+        android:id="@+id/chat"
+        android:title="Chat"
+        android:icon="@drawable/baseline_chat_24"/>
+
+    <item
+        android:id="@+id/logout"
+        android:title="Log out"
+        android:icon="@drawable/baseline_logout_24"/>
+
+</menu>

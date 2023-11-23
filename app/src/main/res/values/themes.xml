@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Mindfulnote" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+
+        <item name="colorPrimary">@color/darkpurple</item>
+        <item name="colorPrimaryVariant">@color/blue</item>
+        <item name="colorOnPrimary">@color/lightblue</item>
+
+        <item name="colorSecondary">@color/lightblue</item>
+        <item name="colorSecondaryVariant">@color/lightteel</item>
+        <item name="colorOnSecondary">@color/lightpurple</item>
+
+        <item name="android:statusBarColor">?attr/colorSecondary</item>
+    </style>
+
+    <style name="Theme.Mindfulnote" parent="Base.Theme.Mindfulnote" />
+</resources>
