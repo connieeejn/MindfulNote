@@ -131,19 +131,7 @@ public class NoteActivity extends AppCompatActivity {
         mrecyclerview.setAdapter(noteAdapter);
     }
 
-    public class NoteViewHolder extends RecyclerView.ViewHolder {
 
-        private TextView notetitle;
-        private TextView notecontent;
-        LinearLayout mnote;
-
-        public NoteViewHolder(@NonNull View itemView) {
-            super(itemView);
-            notetitle = itemView.findViewById(R.id.notetitle);
-            notecontent = itemView.findViewById(R.id.notecontent);
-            mnote = itemView.findViewById(R.id.note);
-        }
-    }
 
     @Override
     protected void onStart() {
@@ -159,12 +147,12 @@ public class NoteActivity extends AppCompatActivity {
         }
     }
 
-    private final int[] COLOR_CODES = new int[]{R.color.color1, R.color.color2, R.color.color3, R.color.color4, R.color.color5, R.color.green, R.color.blue, R.color.lightgreen, R.color.skyblue, R.color.pink};
+
 
     private int getRandomColor() {
         Random rand = new Random();
-        int number = rand.nextInt(COLOR_CODES.length);
-        return COLOR_CODES[number];
+        int number = rand.nextInt(Constants.COLOR_CODES.length);
+        return Constants.COLOR_CODES[number];
     }
 
 }
