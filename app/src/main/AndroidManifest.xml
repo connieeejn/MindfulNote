@@ -16,6 +16,15 @@
         android:theme="@style/Theme.Mindfulnote"
         tools:targetApi="31">
         <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".NoteDetails"
             android:exported="false" />
         <activity
@@ -29,7 +38,8 @@
             android:exported="false" />
         <activity
             android:name=".meditation.MeditationAdapter"
-            android:exported="false" />
+            android:exported="false"
+            tools:ignore="Instantiatable" />
         <activity
             android:name=".AddNoteActivity"
             android:exported="false" />
@@ -41,12 +51,7 @@
             android:exported="false" />
         <activity
             android:name=".userauth.SignupActivity"
-            android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            android:exported="false">
         </activity>
         <activity
             android:name=".MainActivity"
